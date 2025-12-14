@@ -52,13 +52,14 @@ The application is built using the **MERN stack** with secure authentication, ro
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repository & Backend Setup then Frontend Setup
+###  Clone the Repository & Backend Setup then Frontend Setup
 ```bash
 # Clone the repository
 git clone https://github.com/Harshknight/sweet-shop-management-system.git
 cd sweet-shop-management-system
 
-###  Backend setup
+
+#  Backend setup
 mkdir backend
 cd backend
 npm init -y
@@ -75,14 +76,12 @@ npx nodemon src/server.js
 
 
 
-Create a .env file:
-
+# Create a .env file:
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
 
 Run backend:
-
 npm start
 
 3️⃣ Frontend Setup
@@ -90,54 +89,46 @@ cd frontend
 npm install
 npm start
 
-
-Frontend will run at:
-
-http://localhost:3000
-
-
 Backend API:
-
 http://localhost:5000/api
 ---
 
-### 🤖 My AI Usage
-##AI Tools Used
-
+ 🤖 My AI Usage
+#AI Tools Used
 ChatGPT (OpenAI)
 
 How I Used AI
 
-Used ChatGPT to design backend API routes and MongoDB query structure.
+* Used ChatGPT to design backend API routes and MongoDB query structure.
 
-Used AI assistance to debug and improve search functionality using regex.
+* Used AI assistance to debug and improve search functionality using regex.
 
-Used ChatGPT to optimize pagination and filtering logic.
+* Used ChatGPT to optimize pagination and filtering logic.
 
-Used AI to validate Git workflows and repository best practices.
+* Used AI to validate Git workflows and repository best practices.
 
-Used ChatGPT to structure this README and ensure compliance with project guidelines.
+* Used ChatGPT to structure this README and ensure compliance with project guidelines.
 
-Reflection
 
-AI significantly improved my development speed by helping with debugging, query optimization, and project structuring.
-All generated code and suggestions were manually reviewed, tested, and customized to meet project requirements.
-AI served as a productivity and learning assistant, not a replacement for understanding the code.
-
+# Reflection
+* AI significantly improved my development speed by helping with debugging, query optimization, and project structuring.
+* All generated code and suggestions were manually reviewed, tested, and customized to meet project requirements.
+* AI served as a productivity and learning assistant, not a replacement for understanding the code.
 ---
 
-## ✅ Next Steps (IMPORTANT)
+# Login Dashboard
+<img width="821" height="381" alt="image" src="https://github.com/user-attachments/assets/6a31bbc5-62f2-4e0d-ab9b-86505fe577f9" />
 
-After adding this README:
+# Register Dashboard
+<img width="837" height="452" alt="image" src="https://github.com/user-attachments/assets/f50f3bd6-1b83-49df-a27d-d53d1a0cd338" />
 
-```bash
-git add README.md
-git commit -m "docs: add project README and AI usage disclosure
+# For Admin Dashboard -> They can edit, add,delete the sweets
+<img width="1897" height="860" alt="image" src="https://github.com/user-attachments/assets/5e5e2956-1922-43ca-b643-551dd19eae5f" />
 
-Used ChatGPT to structure documentation and ensure AI usage compliance.
+#For User Dashboard ->  They can only purchase
+<img width="1882" height="791" alt="image" src="https://github.com/user-attachments/assets/ec508519-3855-4df4-bbbc-25d66e7049fd" />
 
-Co-authored-by: ChatGPT <ai@users.noreply.github.com>"
-git push origin main
+
 
 
 
