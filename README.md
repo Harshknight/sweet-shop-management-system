@@ -57,3 +57,73 @@ The application is built using the **MERN stack** with secure authentication, ro
 git clone https://github.com/Harshknight/sweet-shop-management-system.git
 cd sweet-shop-management-system
 
+### 2️⃣ Backend Setup
+```bash
+cd backend
+npm install
+
+Create a .env file:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+
+Run backend:
+
+npm start
+
+3️⃣ Frontend Setup
+cd frontend
+npm install
+npm start
+
+
+Frontend will run at:
+
+http://localhost:3000
+
+
+Backend API:
+
+http://localhost:5000/api
+
+🤖 My AI Usage
+AI Tools Used
+
+ChatGPT (OpenAI)
+
+How I Used AI
+
+Used ChatGPT to design backend API routes and MongoDB query structure.
+
+Used AI assistance to debug and improve search functionality using regex.
+
+Used ChatGPT to optimize pagination and filtering logic.
+
+Used AI to validate Git workflows and repository best practices.
+
+Used ChatGPT to structure this README and ensure compliance with project guidelines.
+
+Reflection
+
+AI significantly improved my development speed by helping with debugging, query optimization, and project structuring.
+All generated code and suggestions were manually reviewed, tested, and customized to meet project requirements.
+AI served as a productivity and learning assistant, not a replacement for understanding the code.
+
+---
+
+## ✅ Next Steps (IMPORTANT)
+
+After adding this README:
+
+```bash
+git add README.md
+git commit -m "docs: add project README and AI usage disclosure
+
+Used ChatGPT to structure documentation and ensure AI usage compliance.
+
+Co-authored-by: ChatGPT <ai@users.noreply.github.com>"
+git push origin main
+
+
+
