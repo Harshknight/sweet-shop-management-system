@@ -58,7 +58,7 @@ The application is built using the **MERN stack** with secure authentication, ro
 git clone https://github.com/Harshknight/sweet-shop-management-system.git
 cd sweet-shop-management-system
 
-# Backend setup
+###  Backend setup
 mkdir backend
 cd backend
 npm init -y
@@ -99,9 +99,10 @@ http://localhost:3000
 Backend API:
 
 http://localhost:5000/api
+---
 
-## 🤖 My AI Usage
-AI Tools Used
+### 🤖 My AI Usage
+##AI Tools Used
 
 ChatGPT (OpenAI)
 
