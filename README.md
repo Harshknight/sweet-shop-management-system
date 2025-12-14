@@ -52,15 +52,28 @@ The application is built using the **MERN stack** with secure authentication, ro
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository & Backend Setup then Frontend Setup
 ```bash
+# Clone the repository
 git clone https://github.com/Harshknight/sweet-shop-management-system.git
 cd sweet-shop-management-system
 
-### 2️⃣ Backend Setup
-```bash
+# Backend setup
+mkdir backend
 cd backend
-npm install
+npm init -y
+npm install express mongoose cors dotenv jsonwebtoken bcryptjs
+npm install nodemon --save-dev
+
+# Create .env file
+echo "MONGO_URI=your_mongodb_connection_string" >> .env
+echo "JWT_SECRET=your_secret_key" >> .env
+echo "PORT=5000" >> .env
+
+# Run backend server
+npx nodemon src/server.js
+
+
 
 Create a .env file:
 
@@ -87,7 +100,7 @@ Backend API:
 
 http://localhost:5000/api
 
-🤖 My AI Usage
+## 🤖 My AI Usage
 AI Tools Used
 
 ChatGPT (OpenAI)
