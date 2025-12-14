@@ -52,8 +52,6 @@ The application is built using the **MERN stack** with secure authentication, ro
 
 ## ⚙️ Setup Instructions
 
-###  Clone the Repository & Backend Setup then Frontend Setup
-```bash
 # Clone the repository
 git clone https://github.com/Harshknight/sweet-shop-management-system.git
 cd sweet-shop-management-system
@@ -84,7 +82,7 @@ PORT=5000
 Run backend:
 npm start
 
-3️⃣ Frontend Setup
+# Frontend Setup
 cd frontend
 npm install
 npm start
@@ -93,42 +91,30 @@ Backend API:
 http://localhost:5000/api
 ---
 
- 🤖 My AI Usage
-#AI Tools Used
-ChatGPT (OpenAI)
+# Image 
 
-How I Used AI
-
-* Used ChatGPT to design backend API routes and MongoDB query structure.
-
-* Used AI assistance to debug and improve search functionality using regex.
-
-* Used ChatGPT to optimize pagination and filtering logic.
-
-* Used AI to validate Git workflows and repository best practices.
-
-* Used ChatGPT to structure this README and ensure compliance with project guidelines.
+# Login User
+<img width="790" height="342" alt="image" src="https://github.com/user-attachments/assets/1ed4275c-ca32-434c-b210-dc50308e5a01" />
 
 
-# Reflection
-* AI significantly improved my development speed by helping with debugging, query optimization, and project structuring.
-* All generated code and suggestions were manually reviewed, tested, and customized to meet project requirements.
-* AI served as a productivity and learning assistant, not a replacement for understanding the code.
----
+# Register User
+<img width="837" height="452" alt="image" src="https://github.com/user-attachments/assets/763407ea-8e62-4313-a086-c6151cd233ab" />
 
-# Login Dashboard
-<img width="821" height="381" alt="image" src="https://github.com/user-attachments/assets/6a31bbc5-62f2-4e0d-ab9b-86505fe577f9" />
+# Admin Login - They can edit, delete , add , update the data
+<img width="1862" height="767" alt="image" src="https://github.com/user-attachments/assets/c9733876-05b1-4d16-bd39-7407867f07f9" />
 
-# Register Dashboard
-<img width="837" height="452" alt="image" src="https://github.com/user-attachments/assets/f50f3bd6-1b83-49df-a27d-d53d1a0cd338" />
+# User Login - They can Purchase the product
+<img width="1868" height="723" alt="image" src="https://github.com/user-attachments/assets/475580fe-9d3d-4ccf-8543-3b66afc200c8" />
 
-# For Admin Dashboard -> They can edit, add,delete the sweets
-<img width="1897" height="860" alt="image" src="https://github.com/user-attachments/assets/5e5e2956-1922-43ca-b643-551dd19eae5f" />
+# 🤖 My AI Usage AI Tools Used ChatGPT (OpenAI) 
+How I Used AI Designed backend API routes and MongoDB query logic 
+Debugged and improved search functionality using regex Optimized pagination and filtering logic 
+Validated Git workflows and repository best practices Structured this README to ensure clarity and AI usage compliance 
 
-#For User Dashboard ->  They can only purchase
-<img width="1882" height="791" alt="image" src="https://github.com/user-attachments/assets/ec508519-3855-4df4-bbbc-25d66e7049fd" />
-
-
+# Reflection 
+AI significantly improved development speed by assisting with debugging, optimization, and documentation. 
+All AI-generated suggestions were manually reviewed, tested, and adapted to fit project requirements. 
+AI was used as a productivity and learning aid, not as a replacement for core development understanding.
 
 
 
