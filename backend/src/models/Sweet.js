@@ -26,7 +26,7 @@ const sweetSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-/* 🔥 INDEXES FOR FAST SEARCH */
+/* For fast search */
 sweetSchema.index({ name: "text", category: "text" });
 sweetSchema.index({ category: 1 });
 sweetSchema.index({ price: 1 });

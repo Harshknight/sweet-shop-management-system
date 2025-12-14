@@ -178,7 +178,7 @@ export default function Dashboard() {
         </Stack>
       </Container>
 
-      {/* ADMIN MODAL */}
+      {/* ADMIN Model */}
       <Dialog open={openModal} onClose={() => setOpenModal(false)} fullWidth>
         <DialogTitle fontWeight={600}>
           {currentSweet._id ? "Edit Sweet" : "Add Sweet"}
